@@ -1,0 +1,6 @@
+scroolamab whitepointe.js scrollmagic, en svg, animate svg in javascript
+
+
+https://codepen.io/ppllnb/pen/LmymYP 
+
+https://codepen.io/aw207/pen/BXwVPa

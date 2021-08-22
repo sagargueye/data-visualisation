@@ -3,66 +3,691 @@
 <head>
     <meta charset="UTF-8">
     <title>Data visualisation</title>
-<!--JQUERY-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--JQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+            integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!--popper js-->
+    <!--popper js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 
-<!-- BOOTSTRAP-->
+    <!-- BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script></head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.js"></script>
 
-<!-- SCROLLAMA-->
+    <!-- SCROLLAMA-->
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="https://unpkg.com/intersection-observer"></script>
     <script src="https://unpkg.com/scrollama"></script>
 
-<!--MON FICHIER PERSO-->
+    <!--MON FICHIER PERSO-->
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/script.js"></script>
+
+    <!-- CSS Fizzy Button -->
+    <link rel="stylesheet" href="css/buttton-animate.css">
+
+    <!------ LINK FOR FOOTER ---------->
+    <!--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!------ LINK FOR tableau equipement ---------->
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
 </head>
 <body>
-<section id='scroll'>
-    <div class='scroll__graphic is-fixed'>
-        <div class='chart'>
-            <img id="svg1" src="plan_3D/RDC01.png" type="image/svg+xml" useMap="#workmap" style="max-width: 100%;height: auto;" />
-<!--            <p>0</p>-->
-        </div>
+
+<section id="home">
+    <div class="container1">
+        <p class="animated-word">GEOSM</p>
     </div>
-    <div class='scroll__text'>
-        <div class='step' data-step='1'>
-            <p>STEP 1</p>
-        </div>
-        <div class='step' data-step='2'>
-            <p>STEP 2</p>
-        </div>
-        <div class='step' data-step='3'>
-            <p>STEP 3</p>
-        </div>
-        <div class='step' data-step='4'>
-            <p>STEP 4</p>
-        </div>
-        <div class='step' data-step='5'>
-            <p>STEP 5</p>
-        </div>
-        <div class='step' data-step='6'>
-            <p>STEP 6</p>
-        </div>
-        <div class='step' data-step='7'>
-            <p>STEP 7</p>
-        </div>
-        <div class='step' data-step='8'>
-            <p>STEP 8</p>
-        </div>
+    <div class="container2">
+        <button id="scrollLent" class="glow-on-hover" type="button">Commencer la visite virtuelle!</button>
+        <!--        <div class="wrap">-->
+        <!--            <button class="button2">Commencer la visite!</button>-->
+        <!--        </div>-->
     </div>
 </section>
+<!--<div class="fixme" >-->
+<!--    <div class="button backtohome" >-->
+<!--        <div class="button__text">Retour à l'accueil...</div>-->
+<!--        <div class="button__wrapper">-->
+<!--            <div class="button__arrow"></div>-->
+<!--            <div class="button__border-circle"></div>-->
+<!--            <div class="button__mask-circle">-->
+<!--                <div class="button__small-circle"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="copyright-menu" style="text-align: right">-->
+<!--    <ul>-->
+<!--        <li>-->
+<!--            <a href="#" class="backtohome">Accueil</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="#">Terms</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="#">Privacy Policy</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="#">Contact</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+<!--</div>-->
 
-<section id='outro'></section>
-<div class='debug'></div>
+<!--</div>-->
+
+<!--plan en details-->
+<main class="site-wrapper">
+    <div class="pt-table desktop-768">
+        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-position: center;
+    background-size: cover;">
+            <div class="overlay"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                        <div class="page-title  home text-center">
+                            <span class="heading-page"> Plan stratégique</span>
+                        </div>
+
+                        <div class="hexagon-menu clear">
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">
+                                            <span class="hex-content-inner">
+                                                <span class="icon">
+                                                    <i class="fa fa-bullseye"></i>
+                                                </span>
+                                                <span class="title">Thinking design</span>
+                                            </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                              fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">
+                                            <span class="hex-content-inner">
+                                                <span class="icon">
+                                                     <i class="fa fa-network-wired"></i>
+<!--                                                     <i class="fa fa-universal-access"></i>-->
+                                                </span>
+                                                <span class="title">Architecture réseau</span>
+                                            </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                              fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">
+                                            <span class="hex-content-inner">
+                                                <span class="icon">
+                                                    <i class="fa fa-laptop"></i>
+<!--                                                    <i class="fa fa-braille"></i>-->
+                                                </span>
+                                                <span class="title">Matériels</span>
+                                            </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                              fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+<!--                            <div class="hexagon-item">-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">-->
+<!--                                            <span class="hex-content-inner">-->
+<!--                                                <span class="icon">-->
+<!--                                                    <i class="fa fa-hand-holding-usd"></i>-->
+<!--&lt;!&ndash;                                                    <i class="fa fa-id-badge"></i>&ndash;&gt;-->
+<!--                                                </span>-->
+<!--                                                <span class="title">Budget Prévisionnel</span>-->
+<!--                                            </span>-->
+<!--                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"-->
+<!--                                         xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"-->
+<!--                                              fill="#1e2530"></path>-->
+<!--                                    </svg>-->
+<!--                                </a>-->
+<!--                            </div>-->
+
+<!--                            <div class="hexagon-item">-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">-->
+<!--                                            <span class="hex-content-inner">-->
+<!--                                                <span class="icon">-->
+<!--                                                    <i class="fa fa-life-ring"></i>-->
+<!--                                                </span>-->
+<!--                                                <span class="title">Works</span>-->
+<!--                                            </span>-->
+<!--                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"-->
+<!--                                         xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"-->
+<!--                                              fill="#1e2530"></path>-->
+<!--                                    </svg>-->
+<!--                                </a>-->
+<!--                            </div>-->
+<!--                            <div class="hexagon-item">-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">-->
+<!--                                            <span class="hex-content-inner">-->
+<!--                                                <span class="icon">-->
+<!--                                                    <i class="fa fa-clipboard"></i>-->
+<!--                                                </span>-->
+<!--                                                <span class="title">Testimonials</span>-->
+<!--                                            </span>-->
+<!--                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"-->
+<!--                                         xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"-->
+<!--                                              fill="#1e2530"></path>-->
+<!--                                    </svg>-->
+<!--                                </a>-->
+<!--                            </div>-->
+<!--                            <div class="hexagon-item">-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <div class="hex-item">-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                    <div></div>-->
+<!--                                </div>-->
+<!--                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">-->
+<!--                                            <span class="hex-content-inner">-->
+<!--                                                <span class="icon">-->
+<!--                                                    <i class="far fa-map"></i>-->
+<!--                                                </span>-->
+<!--                                                <span class="title">Contact</span>-->
+<!--                                            </span>-->
+<!--                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"-->
+<!--                                         xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"-->
+<!--                                              fill="#1e2530"></path>-->
+<!--                                    </svg>-->
+<!--                                </a>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--fin plan en detail-->
+
+<!-- menu bar-->
+<div class="fixme ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="button backtohome">
+                    <div class="button__text">Retour à l'accueil...</div>
+                    <div class="button__wrapper">
+                        <div class="button__arrow"></div>
+                        <div class="button__border-circle"></div>
+                        <div class="button__mask-circle">
+                            <div class="button__small-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Col -->
+            <div class="col-md-6">
+                <div class=" copyright-menu">
+                    <ul>
+                        <li>
+                            <a href="#" class="backtohome">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="#">Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Architecture réseau</a>
+                        </li>
+                        <li>
+                            <a href="#">Matériels</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End col -->
+        </div>
+        <!-- End Row -->
+    </div>
+    <!-- End Copyright Container -->
+</div>
+<!-- fin menu bar-->
+
+<!-- visuelle du plan-->
+<div id="carte">
+    <section id='scroll'>
+        <div class='scroll__graphic '>
+            <div class='chart'>
+                <img id="svg1" src="plan_3D/RDC01.png" type="image/svg+xml" useMap="#workmap"
+                     style="height: auto;float: right;"/>
+                <!--            <p>0</p>-->
+            </div>
+        </div>
+        <div class='scroll__text'>
+            <div class='step' data-step='1'>
+                <p>STEP 1</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='2'>
+                <p>STEP 2</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='3'>
+                <p>STEP 3</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='4'>
+                <p>STEP 4</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='5'>
+                <p>STEP 5</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='6'>
+                <p>STEP 6</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='7'>
+                <p>STEP 7</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+            <div class='step' data-step='8'>
+                <p>STEP 8</p>
+                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
+                    the Father Superior's with Ivan:
+                    he felt ashamed of havin lost his temper.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id='outro'></section>
+    <!--    <div class='debug'></div>-->
+    <!--    <a href="#" class="scrollToTop"> Scroll To Top</a>-->
+    <div id="back-to-top" class="scrollToTop back-to-top">
+        <button class="btn btn-dark" title="Back to Top" style="display: block;">
+            <i class="fa fa-angle-up"></i>
+        </button>
+    </div>
+</div>
+<!-- fin visuelle du plan-->
+
+<!--plan en reseau-->
+<main class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
+    <div class="pt-table desktop-768">
+        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-position: center;
+    background-size: cover;">
+            <div class="overlay"></div>
+
+            <div class="container" >
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8" style="min-width: max-content;">
+                        <div class="page-title  home text-center">
+                            <span class="heading-page">Architecture réseau</span>
+                        </div>
+                        <div class="page-body ">
+                            <p>Solution Filaire/wifi</p>
+                            <p>Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
+                            Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
+                            Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
+                            </p>
+                            <p>Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
+                            Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
+                            Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
+                            </p>
+                        </div>
+<!--                        <img id="reseau" src="plan_3D/reseau_1.png" type="image/svg+xml" useMap="#workmap"-->
+<!--                             style="height: auto;float: right;"/>-->
+                        <div class='diapo_auto_rwd'>
+                            <input name="diapo" id='slide1' type="radio" class='slide_diapo'>
+                            <input name="diapo" id='slide2' type="radio" class='slide_diapo'>
+                            <input name="diapo" id='slide3' type="radio" class='slide_diapo'>
+                            <input name="diapo" id='lance-diapo' type="radio" checked>
+                            <input name="diapo" id='pause1' type="radio" class='pause_diapo'>
+                            <input name="diapo" id='pause2' type="radio" class='pause_diapo'>
+                            <input name="diapo" id='pause3' type="radio" class='pause_diapo'>
+                            <ul>
+                                <li><img src="plan_3D/reseau_4.png" alt></li>
+                                <li class='image1 slide_diapo'><img src="plan_3D/reseau_1.png" alt></li>
+                                <li class='image2 slide_diapo'><img src="plan_3D/reseau_2.png" alt></li>
+                                <li class='image3 slide_diapo'><img src="plan_3D/reseau_3.png" alt></li>
+                            </ul>
+                            <div class='lancement_arret'>
+                                <label class='lance_diapo' for='lance-diapo'></label>
+                                <label class='pause_diapo image1' for='pause1'></label>
+                                <label class='pause_diapo image2' for='pause2'></label>
+                                <label class='pause_diapo image3' for='pause3'></label>
+                            </div>
+                            <div class='precedent'>
+                                <label class='image1' for='slide1'></label>
+                                <label class='image2' for='slide2'></label>
+                                <label class='image3' for='slide3'></label>
+                            </div>
+                            <div class='suivant'>
+                                <label class='image1' for='slide1'></label>
+                                <label class='image2' for='slide2'></label>
+                                <label class='image3' for='slide3'></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--fin reseau-->
+
+<!--MATERIELS-->
+<main class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
+    <div class="pt-table desktop-768">
+        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-position: center;
+    background-size: cover;">
+            <div class="overlay"></div>
+
+            <div class="container" >
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8" style="min-width: max-content;">
+                        <div class="page-title  home text-center">
+                            <span class="heading-page">Matériels/Equipements </span>
+                        </div>
+                        <iframe id="inlineFrameExample" title="Inline Frame Example" src="tableau_equipement.html" onload="resizeIframe(this)">
+                        </iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--fin MATERIELS-->
+
+<!--DEBUT FOOTER-->
+<footer id="dk-footer" class="dk-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+                <div class="dk-footer-box-info">
+                    <a href="index.html" class="footer-logo">
+                        <img src="plan_3D/LOGO-GEOSM.png" alt="footer_logo" class="img-fluid">
+                    </a>
+                    <p class="footer-info-text">
+                        Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum
+                        generator.
+                    </p>
+                    <div class="footer-social-link">
+                        <h3>Suivez-nous</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Social link -->
+                </div>
+                <!-- End Footer info -->
+                <div class="footer-awarad">
+                    <img src="images/icon/best.png" alt="">
+                </div>
+            </div>
+            <!-- End Col -->
+            <div class="col-md-12 col-lg-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-us">
+                            <div class="contact-icon">
+                                <i class="far fa-map" aria-hidden="true"></i>
+                            </div>
+                            <!-- End contact Icon -->
+                            <div class="contact-info">
+                                <h3>Yaoundé - Cameroun</h3>
+                                <p>542 Rue de Melen </p>
+                            </div>
+                            <!-- End Contact Info -->
+                        </div>
+                        <!-- End Contact Us -->
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="contact-us contact-us-last">
+                            <div class="contact-icon">
+                                <i class="fa fa-phone-volume" aria-hidden="true"></i>
+                            </div>
+                            <!-- End contact Icon -->
+                            <div class="contact-info">
+                                <h3>0023 76 94 69 86 07</h3>
+                                <p>Appelez-nous</p>
+                            </div>
+                            <!-- End Contact Info -->
+                        </div>
+                        <!-- End Contact Us -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Contact Row -->
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="footer-widget footer-left-widget">
+                            <div class="section-heading">
+                                <h3>Liens utiles</h3>
+                                <span class="animate-border border-black"></span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="https://www.sogefi.com/aboutsogefi.html" target="_blank">A propos</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sogefi.com/ourservices.html" target="_blank">Nos services</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="https://geo.sm/" target="_blank">Nos projects</a>
+                                </li>
+                                <li>
+                                    <a href="https://geo.sm/" target="_blank">Nous contacter</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Footer Widget -->
+                    </div>
+                    <!-- End col -->
+<!--                    <div class="col-md-12 col-lg-6">-->
+<!--                        <div class="footer-widget">-->
+<!--                            <div class="section-heading">-->
+<!--                                <h3>Subscribe</h3>-->
+<!--                                <span class="animate-border border-black"></span>-->
+<!--                            </div>-->
+<!--                            <p>&lt;!&ndash; Don’t miss to subscribe to our new feeds, kindly fill the form below. &ndash;&gt;-->
+<!--                                Reference site about Lorem Ipsum, giving information on its origins, as well.</p>-->
+<!--                            <form action="#">-->
+<!--                                <div class="form-row">-->
+<!--                                    <div class="col dk-footer-form">-->
+<!--                                        <input type="email" class="form-control" placeholder="Email Address">-->
+<!--                                        <button type="submit">-->
+<!--                                            <i class="fa fa-send"></i>-->
+<!--                                        </button>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                            &lt;!&ndash; End form &ndash;&gt;-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; End footer widget &ndash;&gt;-->
+<!--                    </div>-->
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Col -->
+        </div>
+        <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span>Copyright © 2021, Tous droits réservés GEOSM </span>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-6">
+                    <div class="copyright-menu">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sagar-gueye-94b383141/" target="_blank">Sagar GUEYE</a>
+                                <i class="fas fa-heart"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End col -->
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <!--    <div id="back-to-top" class="back-to-top">-->
+    <!--        <button class="btn btn-dark" title="Back to Top" style="display: block;">-->
+    <!--            <i class="fa fa-angle-up"></i>-->
+    <!--        </button>-->
+    <!--    </div>-->
+    <!-- End Back to top -->
+</footer>
+
+
+<!--FIN FOOTER-->
 </body>
 </html>

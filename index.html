@@ -34,18 +34,16 @@
     <!-- CSS Fizzy Button -->
     <link rel="stylesheet" href="css/buttton-animate.css">
 
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
     <!------ LINK FOR FOOTER ---------->
     <!--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <link rel="stylesheet" href="css/footer.css">
 
     <!------ LINK FOR tableau equipement ---------->
-    <script>
-        function resizeIframe(obj) {
-            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-        }
-    </script>
+
 </head>
 <body>
 
@@ -117,7 +115,7 @@
                                     <div></div>
                                     <div></div>
                                 </div>
-                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">
+                                <a href="#carte" class="hex-content">
                                             <span class="hex-content-inner">
                                                 <span class="icon">
                                                     <i class="fa fa-bullseye"></i>
@@ -142,7 +140,7 @@
                                     <div></div>
                                     <div></div>
                                 </div>
-                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">
+                                <a href="#network" class="hex-content">
                                             <span class="hex-content-inner">
                                                 <span class="icon">
                                                      <i class="fa fa-network-wired"></i>
@@ -168,7 +166,7 @@
                                     <div></div>
                                     <div></div>
                                 </div>
-                                <a href="https://enationalelectronics.com" target="_blank" class="hex-content">
+                                <a href="#equipements" class="hex-content">
                                             <span class="hex-content-inner">
                                                 <span class="icon">
                                                     <i class="fa fa-laptop"></i>
@@ -419,7 +417,7 @@
 <!-- fin visuelle du plan-->
 
 <!--plan en reseau-->
-<main class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
+<main id="network" class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
     <div class="pt-table desktop-768">
         <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
     background-position: center;
@@ -485,7 +483,7 @@
 <!--fin reseau-->
 
 <!--MATERIELS-->
-<main class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
+<main id="equipements" class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
     <div class="pt-table desktop-768">
         <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
     background-position: center;
@@ -494,14 +492,14 @@
 
             <div class="container" >
                 <div class="row">
-                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8" style="min-width: max-content;">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-10" style="min-width: max-content;">
                         <div class="page-title  home text-center">
                             <span class="heading-page">Matériels/Equipements </span>
                         </div>
-                        <iframe id="inlineFrameExample" title="Inline Frame Example" src="tableau_equipement.html" onload="resizeIframe(this)">
-                        </iframe>
-
                     </div>
+                </div>
+                <div style="position: relative">
+                    <iframe id="inlineFrameExample" title="Inline Frame Example" src="tableau_equipement.html" scrolling="no"  frameBorder="0"  onload="resizeIframe(this);"></iframe>
                 </div>
             </div>
         </div>

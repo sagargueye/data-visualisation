@@ -1,3 +1,11 @@
+function resizeIframe(obj) {
+    setTimeout(
+        function (){
+            obj.style.width = '100%';
+            var hauteur = obj.contentWindow.document.documentElement.scrollHeight + 20;
+            obj.style.height = hauteur + 'px';
+        },2000);
+}
 $(document).ready(function (){
     // $("#carte").hide();
     $(".backtohome").hide();

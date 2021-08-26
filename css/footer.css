@@ -1,5 +1,6 @@
 footer {
     color: #ccc ;
+    --main-bg-color: #7c842a;
     /*background-color: #151414;*/
 }
 .footer-widget p {
@@ -98,11 +99,12 @@ footer @keyframes primary-long {
     font-size: 24px;
     top: -15px;
     position: relative;
-    color:#7c842a; }
+    color:  var(--main-bg-color) ; }
 
 .dk-footer-box-info {
     position: absolute;
-    top: -180px;
+    /*top: -180px;*/
+    bottom: 20px;
     background: #202020;
     padding: 40px;
     z-index: 2; }
@@ -198,7 +200,7 @@ footer @keyframes primary-long {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
 .footer-widget a:hover {
-    color: #7c842a; }
+    color:   var(--main-bg-color) ; }
 
 .footer-widget:after {
     content: "";
@@ -225,8 +227,8 @@ footer @keyframes primary-long {
     padding: 12px 24px 12px 17px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    border: 1px solid #7c842a;
-    background: #7c842a;
+    border: 1px solid   var(--main-bg-color) ;
+    background:   var(--main-bg-color) ;
     color: #fff; }
 .dk-footer-form button:hover {
     cursor: pointer; }
@@ -257,7 +259,7 @@ footer @keyframes primary-long {
     font-size: 36px;
     top: -5px;
     position: relative;
-    color: #7c842a; }
+    color:   var(--main-bg-color) ; }
 
 .contact-info {
     margin-left: 75px;
@@ -278,7 +280,7 @@ footer @keyframes primary-long {
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear; }
 .copyright a:hover {
-    color:#7c842a; }
+    color:  var(--main-bg-color) ; }
 
 .copyright-menu ul {
     text-align: right;
@@ -290,7 +292,7 @@ footer @keyframes primary-long {
 
 .back-to-top {
     position: relative;
-    z-index: 2; }
+    z-index: 9999; }
 .back-to-top .btn-dark {
     width: 35px;
     height: 35px;
@@ -308,8 +310,8 @@ footer @keyframes primary-long {
     transition: all 0.3s linear; }
 .back-to-top .btn-dark:hover {
     cursor: pointer;
-    background: #FA6742;
-    border-color: #FA6742;
+    background: #00405e;
+    border-color: #013046;
 }
 footer a:hover {
     color: #ffffff;

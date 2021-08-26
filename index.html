@@ -2,6 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+
     <title>Data visualisation</title>
     <!--JQUERY-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -43,6 +44,7 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <!------ LINK FOR tableau equipement ---------->
+    <link rel="stylesheet" href="css/tableau_equipement.css"/>
 
 </head>
 <body>
@@ -53,45 +55,13 @@
     </div>
     <div class="container2">
         <button id="scrollLent" class="glow-on-hover" type="button">Commencer la visite virtuelle!</button>
-        <!--        <div class="wrap">-->
-        <!--            <button class="button2">Commencer la visite!</button>-->
-        <!--        </div>-->
     </div>
 </section>
-<!--<div class="fixme" >-->
-<!--    <div class="button backtohome" >-->
-<!--        <div class="button__text">Retour à l'accueil...</div>-->
-<!--        <div class="button__wrapper">-->
-<!--            <div class="button__arrow"></div>-->
-<!--            <div class="button__border-circle"></div>-->
-<!--            <div class="button__mask-circle">-->
-<!--                <div class="button__small-circle"></div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="copyright-menu" style="text-align: right">-->
-<!--    <ul>-->
-<!--        <li>-->
-<!--            <a href="#" class="backtohome">Accueil</a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="#">Terms</a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="#">Privacy Policy</a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="#">Contact</a>-->
-<!--        </li>-->
-<!--    </ul>-->
-<!--</div>-->
 
-<!--</div>-->
-
-<!--plan en details-->
-<main class="site-wrapper">
+<!--sommaire-->
+<main id="sommaire" class="site-wrapper">
     <div class="pt-table desktop-768">
-        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXJjaGl0ZWN0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
     background-position: center;
     background-size: cover;">
             <div class="overlay"></div>
@@ -290,42 +260,39 @@
         </div>
     </div>
 </main>
-<!--fin plan en detail-->
+<!--fin sommaire-->
 
 <!-- menu bar-->
-<div class="fixme ">
+<div class="fixme">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="button backtohome">
-                    <div class="button__text">Retour à l'accueil...</div>
-                    <div class="button__wrapper">
-                        <div class="button__arrow"></div>
-                        <div class="button__border-circle"></div>
-                        <div class="button__mask-circle">
-                            <div class="button__small-circle"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6" style="text-align: left;">
+                <img src="image/LOGO-GEOSM3.png" height="50px" width="30%">
             </div>
             <!-- End Col -->
             <div class="col-md-6">
-                <div class=" copyright-menu">
-                    <ul>
-                        <li>
-                            <a href="#" class="backtohome">Accueil</a>
-                        </li>
-                        <li>
-                            <a href="#">Design</a>
-                        </li>
-                        <li>
-                            <a href="#">Architecture réseau</a>
-                        </li>
-                        <li>
-                            <a href="#">Matériels</a>
-                        </li>
-                    </ul>
-                </div>
+<!--                <div class="copyright-menu">-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <a href="#" class="backtohome">Accueil</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#carte">Design</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#network">Architecture réseau</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#equipements">Matériels</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+                <nav>
+                    <a href="#carte">Design</a>
+                    <a href="#network">Architecture réseau</a>
+                    <a href="#equipements">Matériels</a>
+                    <div class="animation start-home"></div>
+                </nav>
             </div>
             <!-- End col -->
         </div>
@@ -338,7 +305,7 @@
 <!-- visuelle du plan-->
 <div id="carte">
     <section id='scroll'>
-        <div class='scroll__graphic '>
+        <div class='scroll__graphic' style="position: sticky;">
             <div class='chart'>
                 <img id="svg1" src="plan_3D/RDC01.png" type="image/svg+xml" useMap="#workmap"
                      style="height: auto;float: right;"/>
@@ -347,65 +314,69 @@
         </div>
         <div class='scroll__text'>
             <div class='step' data-step='1'>
-                <p>STEP 1</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
+                <p>REZ DE CHAUSSEE</p>
+                <p>Au niveau du rdc nous avons une vue sur l'open space avec 7 emplacements de 4 bureaux chacun
                 </p>
             </div>
             <div class='step' data-step='2'>
-                <p>STEP 2</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
-                </p>
+                <p>REZ DE CHAUSSEE</p>
+                <p>L'open Space est séparé des toilettes par une cloison derrière laquelle nous avons un couloir qui fait aussi office de salle d’attente avec 3 sièges</p>
             </div>
             <div class='step' data-step='3'>
-                <p>STEP 3</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
+                <p>REZ DE CHAUSSEE</p>
+                <p>A droite de la porte d’entrée on peut voir les escaliers à côté du bureau du PDG qui donne une vue sur l'extérieur grâce à la baie vitrée sur tout le long du mur.</p>
                 </p>
             </div>
             <div class='step' data-step='4'>
-                <p>STEP 4</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
-                </p>
+                <p>REZ DE CHAUSSEE</p>
+                <p>Dans le bureau de la direction, il y a un bureau de direction avec un ensemble de iMac complet ainsi que deux fauteuils pour recevoir des collaborateurs. Nous avons aussi une salle de bain ainsi que des armoires de rangement.
             </div>
             <div class='step' data-step='5'>
-                <p>STEP 5</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
+                <p>NIVEAU 1</p>
+                <p>Le premier étage est constitué de 3 pièces:
+                    une salle de réunion qui peut aussi servir de salle de formation,
+                    Une salle de détente avec une vue sur l'extérieur grâce à la baie vitrée et
+                    Une cuisine qui peut aussi être utilisé pour certaines réunion en interne
                 </p>
             </div>
             <div class='step' data-step='6'>
-                <p>STEP 6</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
+                <p>NIVEAU 1</p>
+                <p>La salle de reunion comprendre une grande table de 16 places, un grand écran de projection placé à l'ouest de la piece. il est aussi équipé d'un modem wifi et un port ethernet
                 </p>
             </div>
             <div class='step' data-step='7'>
-                <p>STEP 7</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
-                </p>
+                <p>NIVEAU 1</p>
+                <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text </p>
             </div>
             <div class='step' data-step='8'>
-                <p>STEP 8</p>
-                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached
-                    the Father Superior's with Ivan:
-                    he felt ashamed of havin lost his temper.
-                </p>
+                <p>NIVEAU 1</p>
+                <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text </p>
             </div>
+<!--            <div class='step' data-step='9'>-->
+<!--                <p>STEP 9</p>-->
+<!--                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached-->
+<!--                    the Father Superior's with Ivan:-->
+<!--                    he felt ashamed of havin lost his temper.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class='step' data-step='10'>-->
+<!--                <p>STEP 10</p>-->
+<!--                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached-->
+<!--                    the Father Superior's with Ivan:-->
+<!--                    he felt ashamed of havin lost his temper.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class='step' data-step='11'>-->
+<!--                <p>STEP 11</p>-->
+<!--                <p>Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached-->
+<!--                    the Father Superior's with Ivan:-->
+<!--                    he felt ashamed of havin lost his temper.-->
+<!--                </p>-->
+<!--            </div>-->
         </div>
     </section>
 
-    <section id='outro'></section>
+<!--    <section id='outro'></section>-->
     <!--    <div class='debug'></div>-->
     <!--    <a href="#" class="scrollToTop"> Scroll To Top</a>-->
     <div id="back-to-top" class="scrollToTop back-to-top">
@@ -417,12 +388,13 @@
 <!-- fin visuelle du plan-->
 
 <!--plan en reseau-->
-<main id="network" class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
+<main id="network" class="site-wrapper" >
     <div class="pt-table desktop-768">
-        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+        <div class="pt-tablecell page-home relative" style="
+<!--             background-image: url(https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXJjaGl0ZWN0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);-->
     background-position: center;
     background-size: cover;">
-            <div class="overlay"></div>
+<!--            <div class="overlay"></div>-->
 
             <div class="container" >
                 <div class="row">
@@ -431,7 +403,26 @@
                             <span class="heading-page">Architecture réseau</span>
                         </div>
                         <div class="page-body ">
-                            <p>Solution Filaire/wifi</p>
+<!--                            <p><b><u>Solution Filaire/wifi</u></b>-->
+
+<!--                            <strong>Avantages </strong>-->
+<!--                                - solution wifi intégré-->
+<!--                                - Débits plus élevées stables-->
+
+<!--                            <strong>Inconvénients </strong>-->
+<!--                                - Coût du faux plancher-->
+<!--                                - Quantité de fils ne justifie pas ça mis en place-->
+
+<!--                            <b><u> Solution wifi</u></b>-->
+
+<!--                            <b>Avantages</b>-->
+<!--                             - Réduction du coût du faux plancher-->
+<!--                             - Débit suffisant pour tous avec un répéteur intégré-->
+<!--                             - Évolutifs-->
+
+<!--                            <b>Inconvénients</b>-->
+<!--                             - Perturbation du signal</p>-->
+
                             <p>Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
                             Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
                             Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte Texte
@@ -453,8 +444,8 @@
                             <input name="diapo" id='pause3' type="radio" class='pause_diapo'>
                             <ul>
                                 <li><img src="plan_3D/reseau_4.png" alt></li>
-                                <li class='image1 slide_diapo'><img src="plan_3D/reseau_1.png" alt></li>
                                 <li class='image2 slide_diapo'><img src="plan_3D/reseau_2.png" alt></li>
+                                <li class='image1 slide_diapo'><img src="plan_3D/reseau_1.png" alt></li>
                                 <li class='image3 slide_diapo'><img src="plan_3D/reseau_3.png" alt></li>
                             </ul>
                             <div class='lancement_arret'>
@@ -485,10 +476,11 @@
 <!--MATERIELS-->
 <main id="equipements" class="site-wrapper" style="border-top: 4px solid rgba(250,250,250,0.54);">
     <div class="pt-table desktop-768">
-        <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+        <div class="pt-tablecell page-home relative" style="
+        /*background-image: url(https://motomo.co.id/wp-content/uploads/2021/02/ts_brandbox_greencityb.jpg);*/
     background-position: center;
     background-size: cover;">
-            <div class="overlay"></div>
+<!--            <div class="overlay"></div>-->
 
             <div class="container" >
                 <div class="row">
@@ -514,40 +506,39 @@
             <div class="col-md-12 col-lg-4">
                 <div class="dk-footer-box-info">
                     <a href="index.html" class="footer-logo">
-                        <img src="plan_3D/LOGO-GEOSM.png" alt="footer_logo" class="img-fluid">
+                        <img src="image/LOGO-GEOSM3.png" alt="footer_logo" class="img-fluid">
                     </a>
-                    <p class="footer-info-text">
-                        Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum
-                        generator.
+                    <p class="footer-info-text" style="text-align: justify;">
+                        GeOsm est le premier service de base de données cartographiques entièrement open source et mondialement distribué.
                     </p>
                     <div class="footer-social-link">
                         <h3>Suivez-nous</h3>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="https://www.facebook.com/GeOsm.Family/">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://twitter.com/geosm_family?lang=fr">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </li>
+<!--                            <li>-->
+<!--                                <a href="#">-->
+<!--                                    <i class="fab fa-google-plus"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
                             <li>
-                                <a href="#">
-                                    <i class="fab fa-google-plus"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="https://cm.linkedin.com/company/geosm-family">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
+<!--                            <li>-->
+<!--                                <a href="#">-->
+<!--                                    <i class="fab fa-instagram"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
                         </ul>
                     </div>
                     <!-- End Social link -->
@@ -556,6 +547,7 @@
                 <div class="footer-awarad">
                     <img src="images/icon/best.png" alt="">
                 </div>
+                <!-- End Footer info -->
             </div>
             <!-- End Col -->
             <div class="col-md-12 col-lg-8">
@@ -656,7 +648,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <span>Copyright © 2021, Tous droits réservés GEOSM </span>
+                    <span>Copyright © 2021, Tous droits réservés GeOsm </span>
                 </div>
                 <!-- End Col -->
                 <div class="col-md-6">

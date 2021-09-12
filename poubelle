@@ -5,3 +5,715 @@
     <link rel="stylesheet" href="css/drooltip.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab:100">
+
+
+    <!-- Row 1 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">1</a></li>
+      <li class="denomination">Station de travail</li>
+      <li>ASUS</li>
+      <li class="denomination"> Vivo AiO V241ICUK-WA002T</li>
+      <li class="quantity">7</li>
+      <li><a class="more-details"><i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/ordi_fixe.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>ASUS Vivo AiO V241ICUK-WA002T</p>
+          <p>INTEL CORE I3-6006U 4 GO 1 TO LED 23.8" WI-FI </p>
+          <p>AC/BLUETOOH WEBCAM WINDOWS 10 FAMILLE 64 BITS</p>
+          <p>Dernier prix 649€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00235407.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 2 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="">2</a></li>
+      <li class="denomination">Station de travail (production lourde)</li>
+      <li>Lenovo</li>
+      <li class="denomination"> Lenovo ThinkCentre M910z</li>
+      <li class="quantity">3</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/ordi_fixe2.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Lenovo ThinkCentre M910z (10NR001BFR)</p>
+          <p>INTEL CORE I5-7500 8 GO 1 TO LED TACTILE 23.8" GRAVEUR DVD WI-FI</p>
+          <p>AC/BLUETOOTH WEBCAM WINDOWS 10 PROFESSIONNEL 64 BITS</p>
+          <p>Dernier prix 179€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00237513.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 3 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="">3</a></li>
+      <li class="denomination">Onduleur</li>
+      <li>APC</li>
+      <li class="denomination">APC Back-UPS 700VA</li>
+      <li class="quantity">10</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/ondulateur.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>L'onduleur line-interactive APC Back-UPS 700VA fournit une alimentation par batterie temporaire, en cas de panne de courant.</p>
+          <p>En plus de cela, il dispose d'une fonction d'analyse des pannes de batteries avec alerte précoce, permettant ainsi d'effectuer à temps une maintenance préventive.</p>
+          <p>Dernier prix 119€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00183548.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 4 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">4</a></li>
+      <li class="denomination">Serveur NAS 16TO</li>
+      <li>Buffalo</li>
+      <li class="denomination">TeraStation 3410DN</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/serveur_nas.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Buffalo TeraStation 3410DN 16 To (4 x 4 To)</p>
+          <p>SERVEUR NAS 4 BAIES AVEC 4 DISQUES DURS</p>
+          <p>Dernier prix 999€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00231353.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 5 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">5</a></li>
+      <li class="denomination">Tablette tactile</li>
+      <li>Samsung</li>
+      <li class="denomination">Galaxy Tab A 2016 7</li>
+      <li class="quantity">10</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/tablette.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Samsung Galaxy Tab A 2016 7" SM-T280 8 Go Blanche</p>
+          <p>TABLETTE INTERNET - QUAD CORE 1,3 GHZ 1.5 GO 8 GO 7" LED TACTILE WI-FI/BLUETOOTH/WEBCAM ANDROID 5.1</p>
+          <p>Dernier prix 149€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00206370.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <!-- Row 6 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">6</a></li>
+      <li class="denomination">Ecran FHD</li>
+      <li>Dell</li>
+      <li class="denomination">Écran Dell 23 : P2319H</li>
+      <li class="quantity">24</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/p2319h_lfp_0025lf000_gy.webp" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Écran Dell 23 : P2319H</p>
+          <p>Optimisez votre espace de travail avec cet écran efficace de 23", construit avec un cadre ultrafin, un encombrement réduit et des fonctionnalités destinées à améliorer le confort.</p>
+          <p>Dernier prix 214€10</p>
+          <p><a href="https://www.dell.com/fr-fr/shop/%C3%A9cran-dell-23-p2319h/apd/210-apwt/moniteurs-et-accessoires-de-moniteur" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <!-- theme 2 -->
+  <article class="row mlb article-title" >
+    <ul class="title-tab">
+      <li class="denomination"><strong>Projection pour présentations</strong></li>
+    </ul>
+  </article>
+  <!-- Row 6 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">6</a></li>
+      <li class="denomination">Vidéo projecteur</li>
+      <li>Epson</li>
+      <li class="denomination">EB-X39</li>
+      <li class="quantity">10</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/visio.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Epson EB-X39</p>
+          <p>VIDÉOPROJECTEUR LCD XGA 3500 LUMENS HDMI</p>
+          <p>Dernier prix 439€94</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00243778.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 7 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">7</a></li>
+      <li class="denomination">Support vidéo projecteur</li>
+      <li>Erard</li>
+      <li class="denomination">Square 2428</li>
+      <li class="quantity">10</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/arard.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Placez votre vidéoprojecteur comme vous le souhaitez avec le support plafond ERARD Square ! </p>
+          <p>Totalement réglable, sa conception ingénieuse le rend compatible avec la quasi-totalité des vidéoprojecteurs du marché.</p>
+          <p>Dernier prix 69€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00178814.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <!-- theme 2 -->
+  <article class="row mlb article-title" >
+    <ul class="title-tab">
+      <li class="denomination"><strong>Sécurité</strong> </li>
+    </ul>
+  </article>
+  <!-- Row 8 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">8</a></li>
+      <li class="denomination">Caméra de surveillance intérieur</li>
+      <li>Amaryllo</li>
+      <li class="denomination">Amaryllo Atom - Noir</li>
+      <li class="quantity">3</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/ameryllo.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Les caméras iCamPro FHD d'Amaryllo assurent une détection intelligente grâce à ses détecteurs de mouvements,
+            détecteurs de son, à son système de suivi intelligent et autonome à 360°,
+            à la fonction infrarouge désactivable ou encore à sa vision de nuit ; le tout en Full HD 1920 x 1080.</p>
+          <p>Dernier prix 89€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00241849.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 9 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">9</a></li>
+      <li class="denomination">Caméra de surveillance extérieur</li>
+      <li>KGuard</li>
+      <li class="denomination">Security VW123EPK</li>
+      <li class="quantity">3</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/kguard.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>La caméra de surveillance KGuard Security VW123EPK est idéale pour une utilisation en extérieur.
+            Grâce à son design étanche contre les intempéries et son mode de vision nocturne, elle vous permettra de toujours obtenir une bonne image.</p>
+          <p>Dernier prix 99€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00185968.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 10 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">10</a></li>
+      <li class="denomination">Pack alarme (sécurité intérieure)</li>
+      <li>Somfy</li>
+      <li class="denomination">Protexiom Ultimate GSM</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/somfy.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Somfy Pack alarme Protexiom Ultimate GSM</p>
+          <p>SYSTÈME DE SÉCURITÉ AVEC 1 DÉTECTEUR D'OUVERTURE,
+            2 DÉTECTEURS DE MOUVEMENT,
+            1 CENTRALE/TRANSMETTEUR GSM/SIRÈNE,
+            1 SIRÈNE EXTÉRIEURE,
+            1 CLAVIER AVEC LECTEUR DE BADGE ET 1 TÉLÉCOMMANDE
+          </p>
+          <p>Dernier prix 899€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00226607.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <!-- theme 3 -->
+  <article class="row mlb article-title" >
+    <ul class="title-tab">
+      <li class="denomination"><strong>Impressions A4 à A3</strong> </li>
+    </ul>
+  </article>
+  <!-- Row 11 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">11</a></li>
+      <li class="denomination">Photocopieur/imprimante</li>
+      <li>Epson</li>
+      <li class="denomination">WorkForce Pro WF-8590DWF</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/impression1.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Epson WorkForce Pro WF-8590DWF</p>
+          <p>IMPRIMANTE MULTIFONCTION A3 JET D'ENCRE 4-EN-1 (USB 2.0 / ETHERNET / WI-FI N)</p>
+          <p>Dernier prix 1 699€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00207575.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 12 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">12</a></li>
+      <li class="denomination">Cartouche d'encre Noire XL</li>
+      <li>Epson</li>
+      <li class="denomination">Epson T7551</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/T7551.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Imprimez des documents de qualité professionnelle avec les cartouches d'encre DURABrite Pro noire XL T7551 d'Epson.
+            Vous pourrez imprimer jusqu'à 5000 pages avec un taux de couverture à 5%.</p>
+          <p>Dernier prix 72€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00208297.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 13 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">13</a></li>
+      <li class="denomination">Cartouche d'encre Cyan XL</li>
+      <li>Epson</li>
+      <li class="denomination">Epson T7552</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/T7552.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Imprimez des documents de qualité professionnelle avec les cartouches d'encre DURABrite Pro cyan XL T7552 d'Epson.
+            Vous pourrez imprimer jusqu'à 4000 pages avec un taux de couverture à 5%.</p>
+          <p>Dernier prix 69€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00208296.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 14 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">14</a></li>
+      <li class="denomination">Cartouche d'encre Magenta XL</li>
+      <li>Epson</li>
+      <li class="denomination">Epson T7553</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/T7553.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Imprimez des documents de qualité professionnelle avec les cartouches d'encre DURABrite Pro magenta XL T7553 d'Epson.
+            Vous pourrez imprimer jusqu'à 4000 pages avec un taux de couverture à 5%.</p>
+          <p>Dernier prix 68€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00208295.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 15 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">15</a></li>
+      <li class="denomination">Cartouche d'encre Jaune XL</li>
+      <li>Epson</li>
+      <li class="denomination">Epson T7554</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/T7554.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Imprimez des documents de qualité professionnelle avec les cartouches d'encre DURABrite Pro jaune XL T7554 d'Epson.
+            Vous pourrez imprimer jusqu'à 4000 pages avec un taux de couverture à 5%.</p>
+          <p>Dernier prix 68€95</p>
+          <p><a href="https://www.ldlc.com/fiche/PB00208294.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- theme 4 -->
+  <article class="row mlb article-title" >
+    <ul class="title-tab">
+      <li class="denomination"><strong>Impressions A0 à A2</strong> </li>
+    </ul>
+  </article>
+  <!-- Row 16 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">16</a></li>
+      <li class="denomination">Traceur A0</li>
+      <li>HP</li>
+      <li class="denomination">HP DesignJet T790ps ePrinter</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+<!--          <p>Les caméras iCamPro FHD d'Amaryllo assurecore à sa vision de nuit ; le tout en Full HD 1920 x 1080.</p>-->
+<!--          <p>Dernier prix 89€95</p>-->
+          <p><a href="http://null/" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 17 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">17</a></li>
+      <li class="denomination">Cartouche noir</li>
+      <li>HP</li>
+      <li class="denomination">HP 72 - photo noir</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+<!--          <p>Les caméras iCamPro FHD d'Amaryllo assurent une détectio ; le tout en Full HD 1920 x 1080.</p>-->
+<!--          <p>Dernier prix 89€95</p>-->
+          <p><a href="http://null/" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 18 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">18</a></li>
+      <li class="denomination">Cartouche magenta</li>
+      <li>HP</li>
+      <li class="denomination">HP 72 - magenta</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+<!--          <p>Les caméras iCamPro FHD d'Amaryllo assu</p>-->
+<!--          <p>Dernier prix 89€95</p>-->
+          <p><a href="http://null/" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 19 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">19</a></li>
+      <li class="denomination">Cartouche jaune</li>
+      <li>HP</li>
+      <li class="denomination">HP 72 - jaune</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+<!--          <p>Les caméras iCamPro FHD d'Amaryllo assurent une détection intelligente grâce </p>-->
+<!--          <p>Dernier prix 89€95</p>-->
+          <p><a href="http://null/" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 20 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">20</a></li>
+      <li class="denomination">Cartouche cyan</li>
+      <li>HP</li>
+      <li class="denomination">HP 72 - cyan</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+<!--          <p>Les caméras iCamPro FHD d'Amaryllo assurent une détection intelligente grâce à ses détecteurs de mouvements,-->
+<!--            à la fonction infrarouge désactivable ou encore à sa vision de nuit ; le tout en Full HD 1920 x 1080.</p>-->
+<!--          <p>Dernier prix 89€95</p>-->
+          <p><a href="www.bruneau.fr" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- theme 5 -->
+  <article class="row mlb article-title" >
+    <ul class="title-tab">
+      <li class="denomination"><strong>Energie</strong> </li>
+    </ul>
+  </article>
+  <!-- Row 21 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">21</a></li>
+      <li class="denomination">Générateur</li>
+      <li>ITC Power</li>
+      <li class="denomination">DG6000SE-Diesel insonorisé</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/energie.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Groupe électrogène ITC Power diesel insonorisé 5,5KW 230V avec AVR à démarrage électrique pré-équipé d'un démarrage automatique par contact sec (prise ATS).</p>
+          <p>Dernier prix 1609€63 TTC</p>
+          <p><a href="https://www.rpower.shop/diesel-3000trmn/9-dg6000le.html?gclid=EAIaIQobChMIionUvp_H2QIVAijTCh3Q-AhbEAkYESABEgKkUvD_BwE" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- theme 6 -->
+  <article class="row mlb article-title" >
+    <ul class="title-tab">
+      <li class="denomination"><strong>Equipement de bureau</strong> </li>
+    </ul>
+  </article>
+  <!-- Row 22 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">22</a></li>
+      <li class="denomination">Fauteuil de bureau</li>
+      <li>Bruneau</li>
+      <li class="denomination">Fauteuil de bureau  cuir Joker III</li>
+      <li class="quantity">10</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+<!--          <p>Les caméras iCamPro FHD d'Amaryllo assurent une détection intelligente grâce à ses920 x 1080.</p>-->
+<!--          <p>Dernier prix 89€95</p>-->
+          <p><a href="" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 23 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">23</a></li>
+      <li class="denomination">Bureau de direction</li>
+      <li>Soburo</li>
+      <li class="denomination">So Big sur caisson, finition Wengé</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/bureau-de-direction.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Le bureau de direction So Big sur caisson est un colosse de style et de standing au service des businessmen raffinés.</p>
+          <p>Dernier prix 1 355,80 € TTC</p>
+          <p><a href="https://www.soburo.com/bureau-direction/13-bureau-de-direction-so-big-sur-caisson.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 24 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">24</a></li>
+      <li class="denomination">Bureau de la réception</li>
+      <li>Soburo</li>
+      <li class="denomination">Banque d'accueil So Spacy</li>
+      <li class="quantity">1</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/banque-accueil.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>So Spacy :  la promesse d’une banque d’accueil qui saura marquer par son allure design.</p>
+          <p>Profondeur totale : de 75,6 cm pour les modèles sans plateau ouvert, à 93,6 cm pour les modèles avec plateau ouvert vers les visiteurs.</p>
+          <p> Hauteur : 115 cm</p>
+          <p>Dernier prix 1 043,86 € TTC</p>
+          <p><a href="https://www.soburo.com/banque-accueil-reception/18-banque-accueil-so-spacy.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 25 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">25</a></li>
+      <li class="denomination">Table de réunion</li>
+      <li>Soburo</li>
+      <li class="denomination">Table de réunion So Effective</li>
+      <li class="quantity">2</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/table-de-reunion.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>L’alliance intemporelle du plateau en bois à la modernité de l’acier érigent la table de table de réunion So Effective au rang d'égérie du design italien :
+            elle fait tourner les têtes</p>
+          <p>Dernier prix 999,60 € TTC</p>
+          <p><a href="https://www.soburo.com/mobilier-reunion/69-table-de-reunion-so-effective.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 26 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">26</a></li>
+      <li class="denomination">Table de formation</li>
+      <li>Soburo</li>
+      <li class="denomination">So Modular Tim</li>
+      <li class="quantity">2</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/no_available.png" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Les caméras iCamPro FHD d'Amaryllo assurent une détection intelligente grâce à ses détecteurs de mouvements,
+            détecteurs de son, à son système de suivi intelligent et autonome à 360°,
+            à la fonction infrarouge désactivable ou encore à sa vision de nuit ; le tout en Full HD 1920 x 1080.</p>
+          <p>Dernier prix 89€95</p>
+          <p><a href="https://www.soburo.com/bureau-operationnel/1253-bureau-operationnel-so-modular-tim.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 27 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">27</a></li>
+      <li class="denomination">Bureau opérationnel</li>
+      <li>Soburo</li>
+      <li class="denomination">So Modular Curve</li>
+      <li class="quantity">4</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/bureau-operationnel.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>La silhouette du bureau opérationnel So Tube allie sobriété et efficacité.
+            Disponible en 5 largeurs, en 5 finitions de plateau et 2 finitions de structure métallique.
+            Ce meuble professionnel personnalisable dispose de nombreuses options pour l'adapter à tous les usages.</p>
+          <p>Dernier prix 296,40 € TTC</p>
+          <p><a href="https://www.soburo.com/bureau-operationnel/35-bureau-operationnel-so-modular-curve.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
+  <!-- Row 28 -->
+  <article class="row mlb">
+    <ul>
+      <li><a href="#">28</a></li>
+      <li class="denomination">Armoire de rangement</li>
+      <li>Soburo</li>
+      <li class="denomination">Meuble haut avec façade</li>
+      <li class="quantity">3</li>
+      <li><a class="more-details"> <i class="fas fa-eye"></i></a></li>
+    </ul>
+    <ul class="more-content">
+      <li style="display: flex">
+        <img src="image/armoire-bureau-avec-facade.jpg" width="150px" height="150px" />
+        <div style="margin-left: 3%;">
+          <p>Cette armoire de rangement trouvera facilement sa place dans votre bureau et vous permettra d'organiser à votre guise votre espace de travail. </p>
+          <p>Dernier prix 277,20 € TTC</p>
+          <p><a href="https://www.soburo.com/meuble-rangement-bureau/123-armoire-bureau-avec-facade.html" target="_blank">Visiter le site commerçant </a></p>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </article>
